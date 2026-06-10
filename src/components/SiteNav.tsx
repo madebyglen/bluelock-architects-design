@@ -16,10 +16,10 @@ export function SiteNav({ variant = "overlay" }: SiteNavProps) {
     >
       <Link to="/" className="flex flex-col group">
         <span className="font-display font-extrabold text-2xl tracking-tighter uppercase leading-none">
-          AXIS
+          Bluelock Architects
         </span>
         <span className="font-mono text-[10px] opacity-60 tracking-widest uppercase mt-1">
-          Atelier ©2024
+          bluelock ©2026
         </span>
       </Link>
       <div className="flex gap-6 md:gap-12 font-mono text-[11px] uppercase tracking-widest">

@@ -74,9 +74,9 @@ function ContactPage() {
                 Visit
               </span>
               <address className="not-italic leading-relaxed text-muted-foreground">
-                AXIS Atelier<br />
-                Gartenstrasse 42<br />
-                8002 Zürich, Switzerland
+                Bluelock Architects<br />
+                Nairobi Kenya<br />
+                Biashara Street
               </address>
               <p className="font-mono text-[10px] text-muted-foreground uppercase tracking-widest">
                 By appointment · Tue — Fri

@@ -6,10 +6,10 @@ import { projects } from "@/lib/projects";
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Projects — AXIS Atelier" },
+      { title: "Projects — Bluelock Architects" },
       { name: "description", content: "Selected works by AXIS Atelier — residential, cultural, and public architecture from 2012 to present." },
-      { property: "og:title", content: "Projects — AXIS Atelier" },
-      { property: "og:description", content: "Selected works by AXIS Atelier — residential, cultural, and public architecture." },
+      { property: "og:title", content: "Projects — Bluelock Architects" },
+      { property: "og:description", content: "Selected works by Bluelock Architects — residential, cultural, and public architecture." },
       { property: "og:image", content: projects[0].image },
     ],
   }),

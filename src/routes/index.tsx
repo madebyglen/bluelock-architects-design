@@ -7,9 +7,9 @@ import heroImage from "@/assets/hero.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "AXIS Atelier — Architecture of Silence & Form" },
+      { title: "Bluelock Architects — Architecture of Silence & Form" },
       { name: "description", content: "Independent architecture practice. Selected works, monographs, and inquiries from Zurich." },
-      { property: "og:title", content: "AXIS Atelier — Architecture of Silence & Form" },
+      { property: "og:title", content: "Bluelock Architects — Architecture of Silence & Form" },
       { property: "og:description", content: "Independent architecture practice. Selected works, monographs, and inquiries from Zurich." },
       { property: "og:image", content: heroImage },
       { name: "twitter:image", content: heroImage },
@@ -71,7 +71,7 @@ function Index() {
               <span>·</span>
               <span>RIBA · SIA</span>
               <span>·</span>
-              <span>Based in Zürich</span>
+              <span>Based in Nairobi</span>
             </div>
           </div>
         </div>
