@@ -1,6 +1,6 @@
 # Madebyglen — Architecture Portfolio
 
-An editorial, monograph-style portfolio site for an architecture practice.
+A personal, editorial, monograph-style portfolio site for an architecture practice.
 Built with **TanStack Start** (React 19 + Vite 7) and **Tailwind CSS v4**, in TypeScript.
 
 ## Pages
