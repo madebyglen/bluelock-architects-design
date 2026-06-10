@@ -9,7 +9,7 @@ export function SiteFooter() {
             AXIS ATELIER
           </h4>
           <p className="text-stone-400 text-xl max-w-lg leading-relaxed">
-            An independent practice exploring the intersection of heavy materials and atmospheric light. Founded in 2012, we build monuments to the everyday.
+            An independent practice exploring the intersection of heavy materials and atmospheric light. Founded in 2024, we build monuments to the everyday.
           </p>
         </div>
         <div className="md:col-start-9 md:col-span-4 flex flex-col gap-12">
@@ -29,8 +29,8 @@ export function SiteFooter() {
               Office
             </span>
             <address className="not-italic text-stone-400 leading-relaxed">
-              Gartenstrasse 42<br />
-              8002 Zürich, Switzerland
+              Nairobi Kenya. <br />
+              Biashara Street
             </address>
           </div>
           <div className="flex flex-col gap-4">
@@ -46,7 +46,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="max-w-screen-2xl mx-auto mt-32 pt-8 border-t border-stone-800 flex flex-col md:flex-row gap-4 justify-between items-center font-mono text-[10px] text-stone-600 uppercase tracking-widest">
-        <span>© 2024 AXIS Atelier — All works protected</span>
+        <span>© 2026 madebyglen — All works protected</span>
         <div className="flex gap-8">
           <a href="#" className="hover:text-stone-400">Instagram</a>
           <a href="#" className="hover:text-stone-400">Journal</a>
