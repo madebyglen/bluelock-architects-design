@@ -21,7 +21,7 @@ export function SiteFooter() {
               href="mailto:studio@axisatelier.com"
               className="text-xl hover:text-stone-400 transition-colors underline decoration-stone-700 underline-offset-8"
             >
-              studio@axisatelier.com
+              studio@bluelockarchitects.com
             </a>
           </div>
           <div className="flex flex-col gap-4">

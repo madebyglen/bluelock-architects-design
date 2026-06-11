@@ -56,8 +56,8 @@ function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           <div className="md:col-span-5">
             <img
-              src={portrait}
-              alt="Portrait of Elias Vance, principal architect at AXIS Atelier"
+              // src={portrait}
+              // alt="Portrait of Elias Vance, principal architect at AXIS Atelier"
               width={960}
               height={1280}
               loading="lazy"
@@ -78,7 +78,7 @@ function AboutPage() {
                 Our work is concerned with weight, weather, and the small movements of light through a day. We accept fewer than four commissions a year. Each begins with months of drawing — on paper, by hand — before any line touches a screen.
               </p>
               <p>
-                Built works span private residences, cultural institutions, public landscapes, and small ecclesiastical projects across Switzerland, Japan, Iceland, and the United Kingdom.
+                Built works span private residences, cultural institutions, public landscapes, and small ecclesiastical projects across Kenya, Japan, Iceland, and the United Kingdom.
               </p>
             </div>
           </div>

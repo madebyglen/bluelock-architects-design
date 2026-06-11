@@ -6,10 +6,10 @@ import { SiteFooter } from "@/components/SiteFooter";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Inquiry — AXIS Atelier" },
-      { name: "description", content: "Commission a new project, request a portfolio, or visit the studio in Zürich." },
-      { property: "og:title", content: "Inquiry — AXIS Atelier" },
-      { property: "og:description", content: "Commission a new project, request a portfolio, or visit the studio in Zürich." },
+      { title: "Inquiry — Bluelock Architects" },
+      { name: "description", content: "Commission a new project, request a portfolio, or visit the studio in Nairobi." },
+      { property: "og:title", content: "Inquiry — Bluelock Architects" },
+      { property: "og:description", content: "Commission a new project, request a portfolio, or visit the studio in Nairobi." },
     ],
   }),
   component: ContactPage,
@@ -51,7 +51,7 @@ function ContactPage() {
           {/* Left column — context */}
           <aside className="md:col-span-4 flex flex-col gap-12">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              We accept three to four new commissions each year. Briefs are reviewed personally by Elias Vance. A reply follows within ten working days.
+              We accept three to four new commissions each year. Briefs are reviewed personally by Bluelock Architects. A reply follows within ten working days.
             </p>
 
             <div className="flex flex-col gap-4">
@@ -62,10 +62,10 @@ function ContactPage() {
                 href="mailto:studio@axisatelier.com"
                 className="text-xl underline decoration-foreground/20 underline-offset-8 hover:decoration-foreground transition-all"
               >
-                studio@axisatelier.com
+                studio@bluelockarchitects.com
               </a>
-              <a href="tel:+41442000200" className="text-xl">
-                +41 44 200 02 00
+              <a href="tel:+254722000200" className="text-xl">
+                +254 722 000 200
               </a>
             </div>
 
@@ -95,7 +95,7 @@ function ContactPage() {
                   Thank you.
                 </h2>
                 <p className="mt-8 text-lg text-muted-foreground max-w-md leading-relaxed">
-                  Your brief has been delivered to the atelier. Elias will respond personally within ten working days.
+                  Your brief has been delivered to the atelier. Bluelock respond personally within ten working days.
                 </p>
               </div>
             ) : (
@@ -103,7 +103,7 @@ function ContactPage() {
                 <Field label="Full Name" name="name" required placeholder="Your name" />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                   <Field label="Email" name="email" type="email" required placeholder="you@domain.com" />
-                  <Field label="Telephone" name="phone" placeholder="+41 …" />
+                  <Field label="Telephone" name="phone" placeholder="+254 …" />
                 </div>
 
                 <div className="flex flex-col gap-3">
