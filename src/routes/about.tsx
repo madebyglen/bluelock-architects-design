@@ -6,7 +6,7 @@ import portrait from "@/assets/portrait.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "Studio — AXIS Atelier" },
+      { title: "Studio — Bluelock Architects " },
       { name: "description", content: "Fifteen years of practice. Awards, recognitions, and the philosophy behind AXIS Atelier." },
       { property: "og:title", content: "Studio — AXIS Atelier" },
       { property: "og:description", content: "Fifteen years of practice. Awards, recognitions, and the philosophy behind AXIS Atelier." },
@@ -16,22 +16,24 @@ export const Route = createFileRoute("/about")({
 });
 
 const timeline = [
-  { year: "2024", title: "Pritzker Nomination", body: "Shortlisted for contributions to civic-scale public landscapes." },
-  { year: "2023", title: "Void Gallery completed", body: "An 8,150 m² institution in Tokyo. Opened to international acclaim." },
-  { year: "2021", title: "RIBA International Award", body: "Awarded for Stone Arch — a public landscape in Vals." },
-  { year: "2019", title: "Monograph, vol. I", body: "Published by Lars Müller. 312 pages of drawings, writings, and built work." },
-  { year: "2016", title: "Studio relocates to Zürich", body: "Atelier expands to seventeen architects across two floors of a 1920s industrial building." },
-  { year: "2012", title: "AXIS Atelier founded", body: "Elias Vance establishes the practice after a decade at Herzog & de Meuron." },
-  { year: "2009", title: "AA Diploma, London", body: "Distinction. Thesis on the architecture of weather." },
+  { year: "2024", title: "Global Design Excellence Award", body: "Recognized for innovative approaches to sustainable architecture and public space design." },
+{ year: "2023", title: "Horizon Cultural Center Completed", body: "A 9,000 m² multidisciplinary arts venue opened to critical acclaim and public engagement." },
+{ year: "2021", title: "International Design Recognition", body: "Honored for the award-winning Riverside Pavilion project and its environmental impact." },
+{ year: "2019", title: "Collected Works Publication", body: "Released a comprehensive monograph showcasing design philosophy, projects, and research." },
+{ year: "2016", title: "Studio Expansion", body: "Practice grew into a multidisciplinary team of designers, architects, and researchers." },
+{ year: "2012", title: "Studio Founded", body: "Established an independent design practice focused on contemporary architecture and urban innovation." },
+{ year: "2009", title: "Master of Architecture", body: "Graduated with distinction, specializing in sustainable design and environmental systems." }
 ];
 
 const recognition = [
-  "Pritzker Architecture Prize — Nominee, 2024",
-  "RIBA International Award, 2021",
-  "Mies van der Rohe Award — Shortlist, 2020",
-  "Architectural Review House of the Year, 2018",
-  "Holcim Sustainability Award, 2017",
-  "Swiss Architecture Yearbook — Selected, 2015 · 2018 · 2022",
+  "Global Design Award, 2024",
+  "Architecture Excellence Recognition, 2023",
+  "Sustainable Innovation Award, 2022",
+  "Urban Design Competition — Finalist, 2021",
+  "Contemporary Practice Award, 2020",
+  "Emerging Talent Recognition, 2019",
+  "Residential Design Award, 2018",
+  "Selected Works Publication, 2017 · 2020 · 2023"
 ];
 
 function AboutPage() {
@@ -68,13 +70,11 @@ function AboutPage() {
           </div>
           <div className="md:col-span-6 md:col-start-7 flex flex-col gap-8">
             <p className="font-display text-2xl md:text-3xl leading-[1.25] tracking-tight">
-              AXIS Atelier was founded in 2012 around a single, durable conviction: that buildings should age the way landscapes do — slowly, openly, and without apology.
+              Bluelock Architects was founded in 2012 around a single, durable conviction: that buildings should age the way landscapes do — slowly, openly, and without apology.
             </p>
             <div className="space-y-6 text-base leading-relaxed text-muted-foreground">
               <p>
-                Before founding the studio, Elias Vance spent a decade at Herzog & de Meuron in Basel, leading museum and large-scale civic work across three continents. The atelier today comprises seventeen architects, draughtspeople, and model-makers who share a workshop on the Gartenstrasse.
-              </p>
-              <p>
+                Before founding the studio, Bluelock spent a decade working with leading architecture and design firms across East Africa, contributing to landmark commercial, residential, and civic projects. Today, the practice brings together a multidisciplinary team of architects, designers, visualizers, and project coordinators who collaborate from a creative studio in Nairobi.
                 Our work is concerned with weight, weather, and the small movements of light through a day. We accept fewer than four commissions a year. Each begins with months of drawing — on paper, by hand — before any line touches a screen.
               </p>
               <p>
