@@ -48,7 +48,7 @@ function Index() {
               <span className="font-mono text-[10px] text-white/50 uppercase tracking-widest">
                 Current Project
               </span>
-              <span className="text-white text-sm">The Obsidian Pavilion, Reykjavik</span>
+              <span className="text-white text-sm"></span>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ function Index() {
           </div>
           <div className="md:col-span-9">
             <p className="font-display text-3xl md:text-5xl leading-[1.1] tracking-tight text-balance">
-              I am <span className="italic">Elias Vance</span>, an architect working between the disciplines of building, drawing, and writing. For the last fifteen years I have built houses, galleries, and public works that begin from a single question — <span className="italic">what does the light want to do here?</span>
+              We are <span className="italic">Bluelock Architects</span>, an architect company working between the disciplines of building, drawing, and writing. For the last fifteen years, we have built houses, galleries, and public works that begin from a single question — <span className="italic">what does the light want to do here?</span>
             </p>
             <div className="mt-12 flex flex-wrap gap-4 font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
               <span>Principal Architect</span>
